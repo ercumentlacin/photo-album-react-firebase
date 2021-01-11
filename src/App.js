@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./style.css";
 import dotenv from  'dotenv'
 import { storage } from "./config";
@@ -26,6 +26,10 @@ export default function App() {
       setImage(null);
     }
   };
+
+  useEffect(()=> {
+    getFromFirebase()
+  },[allImages])
 
   const uploadToFirebase = () => {
     if (image) {
