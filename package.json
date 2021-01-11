@@ -13,9 +13,9 @@
     "react-dom": "^17.0.1"
   },
   "scripts": {
-    "start": " .env.development.local react-scripts start",
-    "build": " .env.development.local react-scripts build",
-    "test": " .env.development.local react-scripts test --env=jsdom",
+    "start": " react-scripts start",
+    "build": " react-scripts build",
+    "test": " react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
