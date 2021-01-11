@@ -1,15 +1,10 @@
 import React, { useState } from "react";
 import "./style.css";
-
 import dotenv from  'dotenv'
 import { storage } from "./config";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
-console.log(process.env.REACT_APP_API_KEY)
-  
- 
-////////////////////
+
 export default function App() {
   
   
