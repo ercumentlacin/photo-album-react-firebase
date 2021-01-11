@@ -29,7 +29,7 @@ export default function App() {
 
   useEffect(()=> {
     getFromFirebase()
-  },[allImages])
+  },[])
 
   const uploadToFirebase = () => {
     if (image) {
