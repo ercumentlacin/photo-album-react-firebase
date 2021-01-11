@@ -1,6 +1,5 @@
 import firebase from "firebase/app";
 import "firebase/storage";
-require("dotenv").config();
 
 const app = firebase.initializeApp({
   apiKey: process.env.REACT_APP_API_KEY,
