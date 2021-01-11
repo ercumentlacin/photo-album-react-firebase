@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./style.css";
-require("dotenv").config();
 import { storage } from "./config";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
+console.log(process.env)
 
 export default function App() {
   const [image, setImage] = useState(null);
