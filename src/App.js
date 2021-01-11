@@ -4,7 +4,6 @@ import dotenv from  'dotenv'
 import { storage } from "./config";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-console.log(process.env)
 
 export default function App() {
   
